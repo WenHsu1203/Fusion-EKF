@@ -3,7 +3,7 @@
 1. Implementing a kalman filter in C++ to estimate the position and velocity of a moving object with noisy lidar and radar measurements. 
 2. Obtaining _RMSE_ values that are lower than the tolerance requirement.
 
-**What I have: Data from 2 Noisy Sensor**
+**What I have: Data from 2 Noisy Sensors**
 * A LIDAR sensor measures the position in Cartesian coordinate `(x,y)`
 * A RADAR sensor measures the position and veloctiy in polar coordinate `(rho, phi, d_rho)`
 
