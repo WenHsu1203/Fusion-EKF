@@ -60,6 +60,7 @@ void KalmanFilter::UpdateEKF(const VectorXd &z) {
   // update the state by using Extended Kalman Filter equations
   VectorXd z_pred = cartesian2polar(x_);
   VectorXd y = z - z_pred;
+  // Normalized the phi such that the value within [-2pi, 2pi]
   y(1) = atan2(sin(y(1)), cos(y(1)));
 
   MatrixXd S = H_*P_*H_.transpose() + R_;
