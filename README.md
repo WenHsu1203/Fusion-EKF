@@ -13,7 +13,8 @@
 # Result
 
 In the demo video, LIDAR measurements are `red circles`, RADAR measurements are `blue circles` with an arrow pointing in the direction of the observed angle, and estimation markers are `green triangles`, and px, py, vx, and vy _RMSE_ values are from Kalman Filter and those are within  __[0.11, 0.11, 0.52, 0.52]__.
-[![](http://img.youtube.com/vi/oUrYJXa3_FE/0.jpg)](http://www.youtube.com/watch?v=oUrYJXa3_FE "Extended Kalman Filter")
+
+[![video](http://img.youtube.com/vi/oUrYJXa3_FE/0.jpg)](http://www.youtube.com/watch?v=oUrYJXa3_FE "Extended Kalman Filter")
 # Download
 The Simulator can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases).
 
